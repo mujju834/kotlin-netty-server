@@ -1,0 +1,51 @@
+# Gradle specific
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+.idea/
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+
+# Kotlin specific
+*.kotlin_metadata
+
+# Ignore local environment configuration
+.env
+
+# Generated files and caches
+build/
+.gradle/
+out/
+.cache/
+
+# Ignore dependencies installed via Gradle
+*.lock
+.gradle/caches/
+.gradle/wrapper/
+
+# Ignore build outputs
+app/build/
+gradle/wrapper/gradle-wrapper.properties.lock
+
+# Ignore VSCode workspace and settings files
+.vscode/
